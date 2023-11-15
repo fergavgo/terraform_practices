@@ -2,6 +2,7 @@ resource "aws_instance" "EC2_Instance" {
   ami           = "ami-04cb4ca688797756f"
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.public_subnet.id
+  vpc_security_group_ids = [aws_security_group.Security_Group_publicInstance.id]
 }
 
 

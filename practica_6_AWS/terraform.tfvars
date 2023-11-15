@@ -12,3 +12,5 @@ tags = {
   "cloud"       = "AWS"
   "Project"     = "Redes Unificadas"
 }
+
+SG_Ingress_CIDR = "152.202.62.163/32"

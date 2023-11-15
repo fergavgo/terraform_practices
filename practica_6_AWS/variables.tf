@@ -25,3 +25,8 @@ variable "tags" {
   description = "Tags Proyecto"
   type        = map(string)
 }
+
+variable "SG_Ingress_CIDR" {
+  description = "Allows IP to ingress to EC"
+  type = string
+}
